@@ -3,9 +3,13 @@
 ## **Project Overview**
 This repository contains two primary scripts for solving the given problem statement:
 
+<<<<<<< HEAD
 1. **Path Planning (`path_Planning.py`)**  
    - Implements **3D path planning** ensuring multiple paths do not coincide.  
    - Visualizes the planned paths.  
+=======
+This project implements **Path Planning** with collision avoidance and **Drone Navigation** . The goal is to plan a drone's flight path using predefined waypoints and simulate its journey, while ensuring safety by avoiding collisions.
+>>>>>>> 4624a3e2f3b7bc8f789ad6cf552fe039419dbede
 
 2. **Drone Mission (`Drone_Simulation.py`)**  
    - Plans and executes a **quadcopter mission in AUTO mode** using DroneKit.  
