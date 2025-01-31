@@ -1,0 +1,4 @@
+dronekit==2.9.2
+matplotlib==3.7.1
+numpy==1.23.4
+networkx==3.0
