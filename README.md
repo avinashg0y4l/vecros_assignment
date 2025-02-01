@@ -18,17 +18,15 @@ This project implements **Path Planning** with collision avoidance and **Drone N
 ---
 
 ## **File Structure**
-. Vecros_assignment/
+Vecros_assignment/
+Vecros_assignment/
 ├── notebooks/
 │   └── important.txt
-├── README.md  <-- This File
+├── README.md           <-- This File
 ├── requirements.txt
 └── src/
     ├── Drone_Simulation.py  <-- 2nd Script
     ├── path_Planning.py     <-- 1st Script
-    
-
-
 
 ---
 # 📌 README.md for 1st Problem Statement - Path Planning & Visualization
