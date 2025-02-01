@@ -54,15 +54,15 @@ Make sure you have the required libraries installed. Use:
 
 ```bash
 pip install matplotlib numpy
+```
 
-
-2️⃣ Run the Path Planning Script
+### 2️⃣ Run the Path Planning Script
 
 Navigate to the src/ directory and run the script for path planning:
-
+```bash
 cd ~/vecros_assignment/src
 python path_Planning.py
-
+```
 ##**📌 Path Planning Workflow**
 
 ✔️ Creates a 3D grid with points (0,0,0) to (100,100,100)
@@ -109,13 +109,14 @@ Make sure you have the required libraries installed. Use:
 pip install dronekit
 pip install matplotlib
 pip install dronekit matplotlib numpy
-
+```
 2️⃣ Start SITL Simulation
 
 Before running the script, launch the ArduCopter SITL simulation:
 
+```bash
 sim_vehicle.py -v ArduCopter --console --map
-
+```
     This will open MAVProxy console & live mission map.
     Wait for the message "Ready to fly" before proceeding.
 
@@ -123,9 +124,10 @@ sim_vehicle.py -v ArduCopter --console --map
 
 Open a new terminal, navigate to the src/ directory, and execute:
 
+```bash
 cd ~/vecros_assignment/src
 python Drone_Simulation.py
-
+```
 📌 Mission Workflow
 
 ✔️ Connects to Drone (SITL or real drone)
@@ -168,6 +170,7 @@ vecros_assignment/
 After mission completion:
 
     Exit SITL properly by typing in MAVProxy:
+    
 
     quit
 
@@ -185,7 +188,7 @@ After mission completion:
 
 
 
-    ## 📢 Notes
+##### **📢 Notes**
 
 ### 1. **Drone Mission Planning (Path Planning Script)**
 - **Mission Waypoints**: The script uses 15 predefined waypoints for the drone's mission.
