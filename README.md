@@ -18,7 +18,7 @@ This project implements **Path Planning** with collision avoidance and **Drone N
 ---
 
 ## **File Structure**
-Vecros_assignment/
+```base
 Vecros_assignment/
 ├── notebooks/
 │   └── important.txt
@@ -27,7 +27,7 @@ Vecros_assignment/
 └── src/
     ├── Drone_Simulation.py  <-- 2nd Script
     ├── path_Planning.py     <-- 1st Script
-
+```
 ---
 # 📌 README.md for 1st Problem Statement - Path Planning & Visualization
 
@@ -145,7 +145,7 @@ The 2D flight path is saved in src/ as:
 
 You can also check the live trajectory in MAVProxy or Mission Planner.
 📁 Project Structure
-
+```
 vecros_assignment/
 ├── eeprom.bin
 ├── logs/
@@ -164,7 +164,7 @@ vecros_assignment/
     ├── path_visualization.png  <-- 2D Path Plot
     ├── terrain/
     │   └── S36E149.DAT
-
+```
 ❗ Closing & Cleanup
 
 After mission completion:
