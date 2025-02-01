@@ -18,7 +18,15 @@ This project implements **Path Planning** with collision avoidance and **Drone N
 ---
 
 ## **File Structure**
-. ├── eeprom.bin # EEPROM data (Drone memory) ├── logs/ # Contains flight logs │ ├── 00000001.BIN # Flight log file │ └── LASTLOG.TXT # Last log summary ├── mav.parm # MAVLink parameter file ├── mav.tlog # Telemetry log ├── mav.tlog.raw # Raw telemetry log ├── notebooks/ │ └── important.tct # Important notes ├── README.md # Project documentation ├── requirements.txt # Dependencies list └── src/ ├── Drone_Simulation.py # Drone mission script (2nd script) ├── eeprom.bin # Copy of EEPROM data ├── logs/ # Duplicate logs for reference │ ├── 00000001.BIN │ └── LASTLOG.TXT ├── mav.parm # MAVLink parameters (copy) ├── mav.tlog # Telemetry log (copy) ├── mav.tlog.raw # Raw telemetry log (copy) ├── path_Planning.py # 3D path planning script (1st script) ├── path_visualization.png # Path visualization output └── terrain/ └── S36E149.DAT # Terrain data
+. Vecros_assignment/
+├── notebooks/
+│   └── important.txt
+├── README.md  <-- This File
+├── requirements.txt
+└── src/
+    ├── Drone_Simulation.py  <-- 2nd Script
+    ├── path_Planning.py     <-- 1st Script
+    
 
 
 
